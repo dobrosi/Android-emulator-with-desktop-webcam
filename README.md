@@ -31,3 +31,7 @@ sudo ffmpeg -probesize 100M -framerate 15 -f x11grab -video_size 1920x1080 -i :0
 ```
 emulator -camera-front webcam1 -no-snapshot -avd Pixel_API_30
 ```
+Ready.
+# Useful links:
+https://github.com/fangfufu/Linux-Fake-Background-Webcam/tree/master
+https://wiki.archlinux.org/title/V4l2loopback
