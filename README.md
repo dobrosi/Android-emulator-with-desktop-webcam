@@ -33,5 +33,5 @@ emulator -camera-front webcam1 -no-snapshot -avd Pixel_API_30
 ```
 Ready.
 # Useful links:
-https://github.com/fangfufu/Linux-Fake-Background-Webcam/tree/master
-https://wiki.archlinux.org/title/V4l2loopback
+1. https://github.com/fangfufu/Linux-Fake-Background-Webcam/tree/master
+2. https://wiki.archlinux.org/title/V4l2loopback
