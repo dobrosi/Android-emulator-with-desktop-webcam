@@ -16,6 +16,7 @@ options v4l2loopback devices=1 exclusive_caps=1 video_nr=0 card_label="desktop-c
 Restart systemd-modules-load
 ```
 systemctl restart systemd-modules-load.service
+sudo modprobe v4l2loopback
 ```
 Fake cam is ready.
 ## Create desktop share as a webcam.
