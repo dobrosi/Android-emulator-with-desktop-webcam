@@ -29,7 +29,7 @@ sudo ffmpeg -probesize 100M -framerate 15 -f x11grab -video_size 1280x720 -i :0.
 ```
 ## Run emulator with prepared virtual webcam
 ```
-emulator -camera-front webcam1 -no-snapshot -avd Pixel_API_30
+emulator -camera-back webcam1 -camera-front webcam1 -no-snapshot -avd Pixel_API_30
 ```
 Ready.
 # Useful links:
